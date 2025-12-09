@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #0A143A;
+}
+
+.header {
+  max-width: 1146px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.navbar-menu {
+  margin-right: auto;
+}
+
+.menu {
+  /* отключили точки */
+  list-style: none;
+  margin: 0;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: flex;
+}
+
+/* отступ справа для всех пунктов меню, кроме последнего */
+.menu-item:not(:last-child) {
+  margin-right: 14px;
+}
+
+.menu-link {
+  /* Отключили подчеркивание ссылок */
+  text-decoration: none;
+  /* взяли цвет родителя (body) */
+  color: inherit;
+}
+
+.button {
+  /* Отключили подчеркивание ссылок */
+  text-decoration: none;
+  display: inline-block;
+  /* сверху-снизу 10, а справа-слева 15 */
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.button-link {
+  color: inherit;
+}
+
+.button-primary {
+  /* скруглили углы */
+  border-radius: 5px;
+  background: #256eeb;
+  color: white;
+}
+
+.search-panel {
+  height: 50px;
+  border-radius: 5px;
+  background: #256eeb;
+  display: flex;
+  padding: 3px;
+}
+
+.search-input {
+  /* заполнял всё собой по ширинев сторону кнопки */
+  flex-grow: 1;
+  border-radius: 5px;
+  background: #fff;
+  /* скрыли обводку */
+  border: none;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.search-button {
+  background: inherit;
+  color: white;
+  border: none;
+  /* в уроке 20, но КМК 17 лучше */
+  padding-left: 17px;
+  padding-right: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.search-button-text {
+  margin-left: 5px;
+}
