@@ -37,3 +37,15 @@ var swiper2 = new Swiper(".mySwiper2", {
 //   //     el: '.swiper-scrollbar',
 //   //   },
 // });
+
+const menuBtn = document.querySelector('.menu-button');
+const menu = document.querySelector('.navbar-panel');
+const menuClose = document.querySelector('.close-menu');
+
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('is-open');
+});
+
+menuClose.addEventListener('click', () => {
+  menu.classList.toggle('is-open');
+});
