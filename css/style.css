@@ -2,18 +2,37 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #0A143A;
+  margin: 0 auto;
 }
 
 .container {
   max-width: 1146px;
   margin: auto;
-
+  padding: 0 auto;
+  width: 100%;
 }
 
 .header {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   margin-bottom: 12px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-burger {
+  width: 30px;
+  height: 19px;
+  display: none;
 }
 
 .navbar {
@@ -61,22 +80,27 @@ body {
   display: none;
 }
 
-.button {
+.btn {
   /* Отключили подчеркивание ссылок */
   text-decoration: none;
   display: inline-block;
   /* сверху-снизу 10, а справа-слева 15 */
   padding: 10px 15px;
   cursor: pointer;
-}
-
-.button-link {
-  color: inherit;
-}
-
-.button-primary {
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
   /* скруглили углы */
   border-radius: 5px;
+  border: none;
+}
+
+.btn-outline {
+  color: inherit;
+  background-color: transparent;
+}
+
+.btn-primary {
   background: #256eeb;
   color: white;
 }
@@ -381,7 +405,7 @@ body {
 
 @media (max-width:1200px) {
   .container {
-    max-width: 960px;
+    max-width: 930px;
   }
 
   .card {
@@ -394,9 +418,9 @@ body {
   }
 }
 
-@media (max-width:992px) {
+@media (max-width:991px) {
   .container {
-    max-width: 740px;
+    max-width: 730px;
   }
 
   .card-image {
@@ -404,10 +428,19 @@ body {
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:786px) {
   .container {
     max-width: 560px;
   }
+
+  .header-control {
+    display: none;
+  }
+
+  .header-burger {
+    display: block;
+  }
+
 
   .card-image {
     width: 100%;
