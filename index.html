@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
   <script src="./js/main.js" defer></script>
@@ -36,249 +36,177 @@
       <!-- /.header-burger -->
     </div>
     <!-- /.header-box -->
-    <div class="navbar">
-      <div class="navbar-panel">
-        <button class="close-menu">
-          <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M15.2535 12.4992L24.6006 3.15163C24.8577 2.89431 24.9996 2.55102 25 2.18496C25 1.8187 24.8581 1.475 24.6006 1.21809L23.7815 0.399187C23.524 0.14126 23.1807 0 22.8142 0C22.4484 0 22.1051 0.14126 21.8476 0.399187L12.5004 9.74614L3.15285 0.399187C2.89573 0.14126 2.55224 0 2.18598 0C1.82012 0 1.47663 0.14126 1.21951 0.399187L0.4 1.21809C-0.133333 1.75142 -0.133333 2.6189 0.4 3.15163L9.74736 12.4992L0.4 21.8463C0.142683 22.1041 0.00101626 22.4474 0.00101626 22.8134C0.00101626 23.1795 0.142683 23.5228 0.4 23.7803L1.21931 24.5992C1.47642 24.8569 1.82012 24.9984 2.18577 24.9984C2.55203 24.9984 2.89553 24.8569 3.15264 24.5992L12.5002 15.252L21.8474 24.5992C22.1049 24.8569 22.4482 24.9984 22.814 24.9984H22.8144C23.1805 24.9984 23.5238 24.8569 23.7813 24.5992L24.6004 23.7803C24.8575 23.523 24.9994 23.1795 24.9994 22.8134C24.9994 22.4474 24.8575 22.1041 24.6004 21.8465L15.2535 12.4992Z"
-              fill="black" />
-          </svg>
-        </button>
-        <!-- /.close-menu -->
-        <!-- <nav class="navbar-menu">
-          <ul class="menu">
-            <li class="menu-item">
-              <a href="#" class="menu-link">Машинки</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">Неподвижность</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">Отпашу</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">Обслужу</a>
-            </li>
-          </ul>
-        </nav> -->
-        <!-- /.navbar-menu -->
-        <!-- /.button-group -->
-      </div>
-      <!-- /.navbar-panel -->
-      <!-- <button class="menu-button">
-        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M0.937476 9.37501H29.0624C29.58 9.37501 29.9999 8.95498 29.9999 8.43754C29.9999 7.92002 29.5799 7.50006 29.0624 7.50006H0.937476C0.419955 7.50006 0 7.92009 0 8.43754C0 8.95498 0.420033 9.37501 0.937476 9.37501Z"
-            fill="black" />
-          <path
-            d="M29.0624 14.0626H0.937476C0.419955 14.0626 0 14.4826 0 15C0 15.5175 0.420033 15.9375 0.937476 15.9375H29.0624C29.58 15.9375 29.9999 15.5175 29.9999 15C29.9999 14.4826 29.58 14.0626 29.0624 14.0626Z"
-            fill="black" />
-          <path
-            d="M29.0625 20.625H10.3125C9.79495 20.625 9.375 21.0451 9.375 21.5625C9.375 22.08 9.79503 22.5 10.3125 22.5H29.0625C29.58 22.5 29.9999 22.0799 29.9999 21.5625C30 21.045 29.58 20.625 29.0625 20.625Z"
-            fill="black" />
-        </svg>
-      </button> -->
-      <!-- /.menu-button -->
-    </div>
-    <!-- /.navbar -->
-    <div class="search-panel">
-      <input type="search" class="search-input" placeholder="Поиск по объявлениям">
-      <button class="search-button">
-        <svg class="search-icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706 7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353 -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589 2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293 2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235 10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635 0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499 2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8.41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059 10.5635 5.7353 10.5635Z"
-            fill="white" />
-        </svg>
-
-        <span class="search-button-text">Ищи</span>
-      </button>
-    </div>
-    <!-- /.search-panel -->
   </header>
   <!-- HEADER END -->
 
-  <div class="page-content container">
-    <!-- блок объяв -->
-    <main class="main">
-      <h2 class="page-title">Рекомендации для вас</h2>
-      <div class="cards">
-        <div class="card">
-          <a href="single.html" class="card-link">
-            <img src="img/photo1.png" alt="photo" class="card-image" />
-          </a>
-          <div class="card-header">
-            <a href="single.html" class="card-link">
-              <h3 class="card-title">Электросамокат</h3>
-            </a>
-            <button class="like">
-              <img src="img/like.svg" alt="like" class="like" />
-            </button>
-          </div>
-          <!-- /.card-header -->
-          <strong class="card-price">
-            10 980 ₽
-          </strong>
-          <p class="card-text">Казань, р-н Ново-Савиновский</p>
-          <p class="card-text">10 июля 11:39</p>
+  <!-- блок объяв -->
+  <main class="main">
+    <section class="search">
+      <div class="container">
+        <div class="search-box">
+          <input type="search" class="search-input" placeholder="Поиск по объявлениям">
+          <button class="btn btn-primary search-btn">
+            <svg class="search-btn__icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706 7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353 -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589 2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293 2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235 10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635 0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499 2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8.41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059 10.5635 5.7353 10.5635Z"
+                fill="white" />
+            </svg>
+
+            <span class="search-btn__text">Ищи</span>
+          </button>
         </div>
-        <!-- /.card -->
-        <div class="card">
-          <a href="single.html" class="card-link">
-            <img src="img/photo2.png" alt="photo" class="card-image" />
-          </a>
-          <div class="card-header">
-            <a href="single.html" class="card-link">
-              <h3 class="card-title">Пвх материал 2й сорт</h3>
-            </a>
-            <button class="like">
-              <img src="img/like.svg" alt="like" class="like" />
-            </button>
-          </div>
-          <!-- /.card-header -->
-          <strong class="card-price">
-            170 ₽
-          </strong>
-          <p class="card-text">Казань, р-н Вахитовский</p>
-          <p class="card-text">10 июля 11:39</p>
-        </div>
-        <!-- /.card -->
-        <div class="card">
-          <a href="single.html" class="card-link">
-            <img src="img/photo3.png" alt="photo" class="card-image" />
-          </a>
-          <div class="card-header">
-            <a href="single.html" class="card-link">
-              <h3 class="card-title">Двухсторонняя ветровка для мальчика</h3>
-            </a>
-            <button class="like">
-              <img src="img/like.svg" alt="like" class="like" />
-            </button>
-          </div>
-          <!-- /.card-header -->
-          <strong class="card-price">
-            2 110 ₽
-          </strong>
-          <p class="card-text">Казань, р-н Ново-Савиновский</p>
-          <p class="card-text">10 июля 11:39</p>
-        </div>
-        <!-- /.card -->
-        <div class="card">
-          <a href="single.html" class="card-link">
-            <img src="img/photo4.png" alt="photo" class="card-image" />
-          </a>
-          <div class="card-header">
-            <a href="single.html" class="card-link">
-              <h3 class="card-title">Пеленальная доска на комод</h3>
-            </a>
-            <button class="like">
-              <img src="img/like.svg" alt="like" class="like" />
-            </button>
-          </div>
-          <!-- /.card-header -->
-          <strong class="card-price">
-            200 ₽
-          </strong>
-          <p class="card-text">Казань, р-н Ново-Савиновский</p>
-          <p class="card-text">10 июля 11:39</p>
-        </div>
-        <!-- /.card -->
-        <div class="card">
-          <a href="single.html" class="card-link">
-            <img src="img/photo5.png" alt="photo" class="card-image" />
-          </a>
-          <div class="card-header">
-            <a href="single.html" class="card-link">
-              <h3 class="card-title">Участок 8 сот. (ИЖС)</h3>
-            </a>
-            <button class="like">
-              <img src="img/like.svg" alt="like" class="like" />
-            </button>
-          </div>
-          <!-- /.card-header -->
-          <strong class="card-price">
-            101 980 ₽
-          </strong>
-          <p class="card-text">Казань, р-н Ново-Савиновский</p>
-          <p class="card-text">10 июля 11:39</p>
-        </div>
-        <!-- /.card -->
-        <div class="card">
-          <a href="single.html" class="card-link">
-            <img src="img/photo6.png" alt="photo" class="card-image" />
-          </a>
-          <div class="card-header">
-            <a href="single.html" class="card-link">
-              <h3 class="card-title">Ford Fusion, 2007</h3>
-            </a>
-            <button class="like">
-              <img src="img/like.svg" alt="like" class="like" />
-            </button>
-          </div>
-          <!-- /.card-header -->
-          <strong class="card-price">
-            304 000 ₽
-          </strong>
-          <p class="card-text">Казань, р-н Ново-Савиновский</p>
-          <p class="card-text">10 июля 11:39</p>
-        </div>
-        <!-- /.card -->
+        <!-- /.search-box -->
       </div>
-      <!-- /.cards -->
-    </main>
-    <!-- /.main -->
-    <!-- блок навигаций -->
-    <aside class="sidebar">
-      <h4 class="page-title">Сервисы и услуги</h4>
-      <div class="service">
-        <img src="img/shipping.svg" alt="icon: shipping" class="service-image" />
-        <h5 class="service-title">Доставка</h5>
-        <p class="service-text">Проверка при получении и возможность бесплатно вернуть товар</p>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="content">
+      <div class="container">
+        <div class="content-box">
+          <div class="content-main">
+            <h2 class="content-main__title">Рекомендации для вас</h2>
+            <!-- /.content-main__title -->
+            <div class="content-main__list">
+              <a href="product.html" class="content-main__list-item">
+                <div class="content-main__list-item--img">
+                  <img src="img/photo1.png" alt="photo1">
+                </div>
+                <!-- /.content-main__list-item--img -->
+                <h5 class="content-main__list-item--title">Электросамокат</h5>
+                <!-- /.content-main__list-item--title -->
+                <strong class="content-main__list-item--price">10 980 ₽</strong>
+                <div class="content-main__list-item--desc-box">
+                  <span class="content-main__list-item--desc">Казань, р-н Ново-Савиновский</span>
+                  <span class="content-main__list-item--desc">10 июля 11:39</span>
+                </div>
+                <!-- /.content-main__list-item--desc-box -->
+              </a>
+              <!-- /.content-main__list-item -->
+              <a href="#" class="content-main__list-item">
+                <div class="content-main__list-item--img">
+                  <img src="img/photo2.png" alt="photo2">
+                </div>
+                <!-- /.content-main__list-item--img -->
+                <h5 class="content-main__list-item--title">Пвх материал 2й сорт</h5>
+                <!-- /.content-main__list-item--title -->
+                <strong class="content-main__list-item--price">170 ₽</strong>
+                <div class="content-main__list-item--desc-box">
+                  <span class="content-main__list-item--desc">Казань, р-н Вахитовский</span>
+                  <span class="content-main__list-item--desc">10 июля 11:39</span>
+                </div>
+                <!-- /.content-main__list-item--desc-box -->
+              </a>
+              <!-- /.content-main__list-item -->
+              <a href="#" class="content-main__list-item">
+                <div class="content-main__list-item--img">
+                  <img src="img/photo3.png" alt="photo3">
+                </div>
+                <!-- /.content-main__list-item--img -->
+                <h5 class="content-main__list-item--title">Двухсторонняя ветровка для мальчика</h5>
+                <!-- /.content-main__list-item--title -->
+                <strong class="content-main__list-item--price">2 110 ₽</strong>
+                <div class="content-main__list-item--desc-box">
+                  <span class="content-main__list-item--desc">Казань, р-н Ново-Савиновский</span>
+                  <span class="content-main__list-item--desc">10 июля 11:39</span>
+                </div>
+                <!-- /.content-main__list-item--desc-box -->
+              </a>
+              <!-- /.content-main__list-item -->
+              <a href="#" class="content-main__list-item">
+                <div class="content-main__list-item--img">
+                  <img src="img/photo4.png" alt="photo4">
+                </div>
+                <!-- /.content-main__list-item--img -->
+                <h5 class="content-main__list-item--title">Пеленальная доска на комод</h5>
+                <!-- /.content-main__list-item--title -->
+                <strong class="content-main__list-item--price">200 ₽</strong>
+                <div class="content-main__list-item--desc-box">
+                  <span class="content-main__list-item--desc">Казань, р-н Ново-Савиновский</span>
+                  <span class="content-main__list-item--desc">10 июля 11:39</span>
+                </div>
+                <!-- /.content-main__list-item--desc-box -->
+              </a>
+              <!-- /.content-main__list-item -->
+              <a href="#" class="content-main__list-item">
+                <div class="content-main__list-item--img">
+                  <img src="img/photo5.png" alt="photo5">
+                </div>
+                <!-- /.content-main__list-item--img -->
+                <h5 class="content-main__list-item--title">Участок 8 сот. (ИЖС)</h5>
+                <!-- /.content-main__list-item--title -->
+                <strong class="content-main__list-item--price">101 980 ₽</strong>
+                <div class="content-main__list-item--desc-box">
+                  <span class="content-main__list-item--desc">Казань, р-н Ново-Савиновский</span>
+                  <span class="content-main__list-item--desc">10 июля 11:39</span>
+                </div>
+                <!-- /.content-main__list-item--desc-box -->
+              </a>
+              <!-- /.content-main__list-item -->
+              <a href="#" class="content-main__list-item">
+                <div class="content-main__list-item--img">
+                  <img src="img/photo6.png" alt="photo6">
+                </div>
+                <!-- /.content-main__list-item--img -->
+                <h5 class="content-main__list-item--title">Ford Fusion, 2007</h5>
+                <!-- /.content-main__list-item--title -->
+                <strong class="content-main__list-item--price">304 000 ₽</strong>
+                <div class="content-main__list-item--desc-box">
+                  <span class="content-main__list-item--desc">Казань, р-н Ново-Савиновский</span>
+                  <span class="content-main__list-item--desc">10 июля 11:39</span>
+                </div>
+                <!-- /.content-main__list-item--desc-box -->
+              </a>
+              <!-- /.content-main__list-item -->
+            </div>
+            <!-- /.content-main__list -->
+          </div>
+          <!-- /.conten-main -->
+          <div class="content-side">
+            <h3 class="content-side__title">Сервисы и услуги</h3>
+            <div class="content-side__box">
+              <div class="content-side__list">
+                <div class="content-side__list-item">
+                  <img src="img/shipping.svg" alt="shipping" class="content-side__list-item--img">
+                  <h5 class="content-side__list-item--title">Доставка</h5>
+                  <p class="content-side__list-item--text">Проверка при получении и возможность бесплатно вернуть товар
+                  </p>
+                </div>
+                <!-- /.content-side__list-item -->
+                <div class="content-side__list-item">
+                  <img src="img/auto.svg" alt="shipping" class="content-side__list-item--img">
+                  <h5 class="content-side__list-item--title">Автотека</h5>
+                  <p class="content-side__list-item--text">Отчёт с историей авто: пробег, владельцы, сведения о залоге,
+                    ДТП и ремонтах</p>
+                </div>
+                <!-- /.content-side__list-item -->
+                <div class="content-side__list-item">
+                  <img src="img/comb.svg" alt="shipping" class="content-side__list-item--img">
+                  <h5 class="content-side__list-item--title">Онлайн-бронирование жилья</h5>
+                  <p class="content-side__list-item--text">Посуточная аренда квартир и домов: большой выбор вариантов
+                    для поездок по России</p>
+                </div>
+                <!-- /.content-side__list-item -->
+              </div>
+              <!-- /.content-side__list -->
+              <!-- <hr /> -->
+              <div class="content-side__footer">
+                <p class="content-side__footer--item">© ООО «Абоба», 2021–2031</p>
+                <a href="" class="content-side__footer--item">Политика конфиденциальности</a>
+                <a href="" class="content-side__footer--item">Обработка данных</a>
+              </div>
+              <!-- /.content-side__footer -->
+            </div>
+            <!-- /.content-side__box -->
+          </div>
+          <!-- /.content-side -->
+        </div>
+        <!-- /.content-box -->
       </div>
-      <!-- /.service -->
-      <div class="service">
-        <img src="img/auto.svg" alt="icon: shipping" class="service-image" />
-        <h5 class="service-title">Автотека</h5>
-        <p class="service-text">Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах</p>
-      </div>
-      <!-- /.service -->
-      <div class="service">
-        <img src="img/comb.svg" alt="icon: shipping" class="service-image" />
-        <h5 class="service-title">Онлайн-бронирование жилья</h5>
-        <p class="service-text">Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России</p>
-      </div>
-      <!-- /.service -->
-      <hr color="#E5E5E5" />
-      <footer class="footer">
-        <p class="footer-text">© ООО «Абоба», 2021–2031</p>
-        <ul class="footer-menu">
-          <li class="footer-menu-item">
-            <a href="#" class="footer-text">Политика конфиденциальности</a>
-          </li>
-          <li class="footer-menu-item">
-            <a href="#" class="footer-text">Обработка данных</a>
-          </li>
-        </ul>
-        <!-- /.footer-menu -->
-        <ul class="footer-menu">
-          <li class="footer-menu-item">
-            <a href="#" class="footer-link">Реклама на сайте</a>
-          </li>
-          <li class="footer-menu-item">
-            <a href="#" class="footer-link">Вакансии</a>
-          </li>
-          <li class="footer-menu-item">
-            <a href="#" class="footer-link">Помощь</a>
-          </li>
-        </ul>
-        <!-- /.footer-menu -->
-      </footer>
-      <!-- /.footer -->
-    </aside>
-    <!-- /.sidebar -->
-  </div>
-  <!-- /.page-conten -->
+      <!-- /.container -->
+      <!-- /section -->
+  </main>
+  <!-- /.main -->
 </body>
 
 </html>

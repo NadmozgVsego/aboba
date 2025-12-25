@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aboba - объявы без предъявы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <!-- HEADER START -->
+  <header class="header container">
+    <div class="header-box">
+      <div class="header-logo">
+        <a href="/index.html" class="logo">
+          <img src="img/logo.svg" alt="logo: Aboba">
+        </a>
+      </div>
+      <!-- /.header-logo -->
+      <div class="header-control">
+        <a href="#" class="btn btn-outline">Вход и рега</a>
+        <a href="#" class="btn btn-primary">Подать объяву</a>
+      </div>
+      <!-- /.header-control -->
+      <div class="header-burger">
+        <img src="img/menu.svg" alt="menu">
+      </div>
+      <!-- /.header-burger -->
+    </div>
+    <!-- /.header-box -->
+  </header>
+  <!-- HEADER END -->
+
+  <!-- блок объяв -->
+  <main class="main">
+    <section class="search">
+      <div class="container">
+        <div class="search-box">
+          <input type="search" class="search-input" placeholder="Поиск по объявлениям">
+          <button class="btn btn-primary search-btn">
+            <svg class="search-btn__icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706 7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353 -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589 2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293 2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235 10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635 0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499 2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8.41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059 10.5635 5.7353 10.5635Z"
+                fill="white" />
+            </svg>
+
+            <span class="search-btn__text">Ищи</span>
+          </button>
+        </div>
+        <!-- /.search-box -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="content">
+      <div class="container">
+        <div class="content-box">
+          <div class="content-product">
+            <div class="content-product__left">
+              <div class="content-product__title">Электросамокат kugoo Gx</div>
+              <img src="img/photo11.png" alt="photo11" class="content-product__img">
+              <p class="content-product__text">
+                Продаю не спеша самокат в хорошем состоянии.<br>
+                Торг возможен.<br>
+                За период эксплуатации не выявлено ни одной проблемы.<br>
+                Из минусов — нужно прокачать задний тормоз.<br>
+                Установлен отсекатель сзади.<br>
+                Покрышки CST внедорожные.<br>
+                Все на подшипниках, болты протянуты.<br>
+                Пробег 881км , это немного для такого зверя.
+              </p>
+            </div>
+            <!-- /.content-product__left -->
+            <div class="content-product__right">
+              <div class="content-product__price">75 000 ₽</div>
+              <a href="#" class="btn btn-primary btn-large">Показать телефон</a>
+            </div>
+            <!-- /.content-product__right -->
+          </div>
+          <!-- /.conten-product -->
+          <div class="content-side">
+            <h3 class="content-side__title">Сервисы и услуги</h3>
+            <div class="content-side__box">
+              <div class="content-side__list">
+                <div class="content-side__list-item">
+                  <img src="img/shipping.svg" alt="shipping" class="content-side__list-item--img">
+                  <h5 class="content-side__list-item--title">Доставка</h5>
+                  <p class="content-side__list-item--text">Проверка при получении и возможность бесплатно вернуть товар
+                  </p>
+                </div>
+                <!-- /.content-side__list-item -->
+                <div class="content-side__list-item">
+                  <img src="img/auto.svg" alt="shipping" class="content-side__list-item--img">
+                  <h5 class="content-side__list-item--title">Автотека</h5>
+                  <p class="content-side__list-item--text">Отчёт с историей авто: пробег, владельцы, сведения о залоге,
+                    ДТП и ремонтах</p>
+                </div>
+                <!-- /.content-side__list-item -->
+                <div class="content-side__list-item">
+                  <img src="img/comb.svg" alt="shipping" class="content-side__list-item--img">
+                  <h5 class="content-side__list-item--title">Онлайн-бронирование жилья</h5>
+                  <p class="content-side__list-item--text">Посуточная аренда квартир и домов: большой выбор вариантов
+                    для поездок по России</p>
+                </div>
+                <!-- /.content-side__list-item -->
+              </div>
+              <!-- /.content-side__list -->
+              <!-- <hr /> -->
+              <div class="content-side__footer">
+                <p class="content-side__footer--item">© ООО «Абоба», 2021–2031</p>
+                <a href="" class="content-side__footer--item">Политика конфиденциальности</a>
+                <a href="" class="content-side__footer--item">Обработка данных</a>
+              </div>
+              <!-- /.content-side__footer -->
+            </div>
+            <!-- /.content-side__box -->
+          </div>
+          <!-- /.content-side -->
+        </div>
+        <!-- /.content-box -->
+      </div>
+      <!-- /.container -->
+      <!-- /section -->
+  </main>
+  <!-- /.main -->
+</body>
+
+</html>
