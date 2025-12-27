@@ -1,0 +1,32 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  margin-bottom: 12px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-burger {
+  width: 30px;
+  height: 19px;
+  display: none;
+}
+
+@media (max-width:786px) {
+  .header-control {
+    display: none;
+  }
+
+  .header-burger {
+    display: block;
+  }
+}
