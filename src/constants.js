@@ -5,7 +5,8 @@ export const cardArray = [
     price: '10 980',
     date: '10 июля 11:39',
     address: 'Казань, р-н Ново-Савиновский',
-    img: 'photo1.png'
+    img: 'photo1.png',
+    desc: 'Продаю не спеша самокат в хорошем состоянии.'
   },
   {
     id: 1,
@@ -13,7 +14,8 @@ export const cardArray = [
     price: '170',
     date: '10 июля 11:39',
     address: 'Казань, р-н Вахитовский',
-    img: 'photo2.png'
+    img: 'photo2.png',
+    desc: 'Продаю не спеша материал во второсортном состоянии.'
   },
   {
     id: 2,
@@ -21,7 +23,8 @@ export const cardArray = [
     price: '2 110',
     date: '10 июля 11:39',
     address: 'Казань, р-н Ново-Савиновский',
-    img: 'photo3.png'
+    img: 'photo3.png',
+    desc: 'Продаю не спеша ветровку в двухстороннем состоянии.'
   },
   {
     id: 3,
@@ -29,7 +32,8 @@ export const cardArray = [
     price: '200',
     date: '10 июля 11:39',
     address: 'Казань, р-н Ново-Савиновский',
-    img: 'photo4.png'
+    img: 'photo4.png',
+    desc: 'Продаю не спеша доску в пеленальном состоянии.'
   },
   {
     id: 4,
@@ -37,7 +41,9 @@ export const cardArray = [
     price: '101 980',
     date: '10 июля 11:39',
     address: 'Казань, р-н Ново-Савиновский',
-    img: 'photo5.png'
+    img: 'photo5.png',
+    desc: 'Продаю не спеша участок в участковом состоянии.'
+
   },
   {
     id: 5,
@@ -45,7 +51,8 @@ export const cardArray = [
     price: '304 000',
     date: '10 июля 11:39',
     address: 'Казань, р-н Ново-Савиновский',
-    img: 'photo6.png'
+    img: 'photo6.png',
+    desc: 'Продаю не спеша Ford в Fusionn-ом состоянии.'
   },
 ]
 
